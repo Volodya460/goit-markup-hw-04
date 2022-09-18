@@ -149,24 +149,23 @@ ul{
  }
  
  
- .site-contacte .tell:hover ,.site-contacte .tell:focus{
-    color: var(--accent-text-color);
-    fill: var(--accent-text-color);
- }
+ 
+    
+ 
  .icon-contacte{
     margin-right: 10px;
     fill:#afb1b8;
  }
  
- 
-.site-contacte .item:hover svg{
+.site-contacte .link:hover svg{
     fill: var(--accent-text-color);
-
 }
-.site-contacte .item:focus svg{
-    fill: var(--accent-text-color);
-
+.site-contacte .link:focus svg{
+ fill: var(--accent-text-color);
 }
+
+
+
   /* SERVICES */
 
   
@@ -479,6 +478,9 @@ padding: 0;
     border-radius: 50%;
    }
    .footer-social .link:hover{
+    background-color: var(--accent-text-color);
+   }
+   .footer-social .link:focus{
     background-color: var(--accent-text-color);
    }
    
